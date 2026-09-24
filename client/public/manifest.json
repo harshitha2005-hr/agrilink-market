@@ -1,0 +1,18 @@
+{
+  "short_name": "AgriLink",
+  "name": "AgriLink: Kisan Market & Fair Price Discovery",
+  "description": "Strengthening Market Linkages and Price Discovery for Farmers and Buyers",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#059669",
+  "theme_color": "#059669",
+  "display": "standalone",
+  "orientation": "portrait"
+}

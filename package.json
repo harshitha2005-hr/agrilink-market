@@ -1,0 +1,26 @@
+{
+  "name": "agrilink-market",
+  "version": "1.0.0",
+  "description": "Strengthening Market Linkages and Price Discovery for Farmers",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "node server/server.js",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "test": "node test/api_test.js"
+  },
+  "keywords": [
+    "agritech",
+    "farmers",
+    "market-linkage",
+    "price-discovery",
+    "ai-grading"
+  ],
+  "author": "Antigravity",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
